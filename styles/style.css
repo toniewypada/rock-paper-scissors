@@ -1,0 +1,28 @@
+body{
+    background: rgb(193, 168, 183);
+}
+
+#intro{
+    padding: 50px auto;
+    margin-bottom: 100px;
+}
+
+h2,h3 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: blanchedalmond;
+}
+
+#btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn-move-select {
+  background-color: mistyrose;
+  border-radius: 7%;
+}
+.btn-move-select:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

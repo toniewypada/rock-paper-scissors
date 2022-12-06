@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock, paper, scissors!</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600&family=Raleway:wght@200&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <div class="btns">
-        <div class="btn-select-move rock"><img src="./img/rock.png"></div>
-        <div class="btn-select-move paper"><img src="./img/paper.png"></div>
-        <div class="btn-select-move scissors"><img src="./img/scissors.png"></div>
+    <div id="intro"><h2>Let's play rock, paper, scissors!</h2>
+    <h3>Make your move to start!</h3>
+    </div>
+    
+    <div id="btns">
+        <div class="btn-box"><button class="btn-move-select" value="rock"><img src="./img/rock.png"></button></div>
+        <div class="btn-box"><button class="btn-move-select" value="paper"><img src="./img/paper.png"></button></div>
+        <div class="btn-box"><button class="btn-move-select" value="scissors"><img src="./img/scissors.png"></button></div>
+    </div>
+
+    <div id="score">
+        <h3 class ="current-round"></h3>
     </div>
     <script src="./scripts/app.js"></script>
 </body>
